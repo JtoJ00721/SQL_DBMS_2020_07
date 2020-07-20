@@ -21,7 +21,7 @@ git config를 실행하지 않아도 된다.
 3. git-hub의 remote repository인 git remote add origin https://github.com/JtoJ00721/Biz_506_20202_07_DBMS.git 이 주소를 origin이라는
 이름으로 사용하겠다.
 
-### git-hub에 ㅡㅍ로젝트 올릴때 마다 항상 실행해야 한다.
+### git-hub에 프로젝트 올릴때 마다 항상 실행해야 한다.
 1. git add. : 현재 폴더, sub 폴더의 모든 파일을 local repository(git 폴더)에 
 압축, 해쉬하여 저장하라
 2. git commit -m "Comment" : 지금 시점에 추갇된 프로젝트를 Comment라는 설명을 부착하여 remote에 올릴 준비를 하라
