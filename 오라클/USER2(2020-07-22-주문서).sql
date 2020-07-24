@@ -109,3 +109,8 @@ SELECT * FROM tbl_order;
 INSERT INTO tbl_order(o_seq,o_date,o_num, o_cnum, o_pcode) 
         VALUES (seq_order.NEXTVAL,'2020-07-22','O00022', 'C0055','P00067');
 COMMIT;
+
+SELECT * FROM tbl_order;
+
+DELETE tbl_order;
+

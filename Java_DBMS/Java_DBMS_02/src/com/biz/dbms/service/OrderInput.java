@@ -104,7 +104,7 @@ public class OrderInput {
 			return true;
 	}
 	
-	public boolean orderUpdate() {
+	public boolean orderUpdate() throws SQLException {
 		
 		try {
 			oView.orderList(oService.selectAll());
@@ -134,7 +134,8 @@ public class OrderInput {
 			orderVO = oService.findBySeq(longSeq);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new SQLException(); 
+		
 		}
 		
 		if(orderVO == null) {
