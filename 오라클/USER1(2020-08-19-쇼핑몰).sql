@@ -13,6 +13,8 @@ P_OPRICE	NUMBER	,
 P_IMAGE	NVARCHAR2(125)		
 );
 
+DROP TABLE tbl_product;
+
 -- 거래처정보 테이블
 CREATE TABLE tbl_dept (
 D_CODE	CHAR(4)		PRIMARY KEY,
@@ -23,6 +25,12 @@ D_ADDRESS	NVARCHAR2(255)	,
 D_MANAGER	NVARCHAR2(50)	,	
 D_MIN_TEL	VARCHAR(20)		
 );
+
+DROP TABLE tbl_dept;
+
+SELECT * FROM tbl_product;
+
+SELECT * FROM tbl_dept;
 
 
 
