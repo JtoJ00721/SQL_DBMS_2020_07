@@ -1,0 +1,47 @@
+-- 여기는 user1 화면
+
+CREATE TABLE tbl_member (
+M_USERID	VARCHAR2(50)	PRIMARY KEY,
+M_PASSWORD	VARCHAR2(125)	NOT NULL,
+M_NAME	nVARCHAR2(30)	NOT NULL,
+M_TEL	VARCHAR2(20),
+M_ADDRESS	nVARCHAR2(255),
+M_ROLL	VARCHAR2(20)
+);
+
+DROP TABLE tbl_member;
+
+SELECT * FROM tbl_member;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
