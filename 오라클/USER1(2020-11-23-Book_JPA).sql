@@ -1,0 +1,6 @@
+
+DROP TABLE tbl_bbs;
+DROP SEQUENCE seq_bbs;
+
+SELECT * FROM tbl_bbs;
+SELECT SEQ_BBS.NEXTVAL FROM DUAL;
