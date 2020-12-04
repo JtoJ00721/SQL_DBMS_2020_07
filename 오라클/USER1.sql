@@ -16,4 +16,6 @@ START WITH 1 INCREMENT BY 1;
 
 SELECT * FROM tbl_employees;
 
+COMMIT;
+
 
