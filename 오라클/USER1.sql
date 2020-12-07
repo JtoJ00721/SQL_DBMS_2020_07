@@ -16,6 +16,21 @@ START WITH 1 INCREMENT BY 1;
 
 SELECT * FROM tbl_employees;
 
+CREATE TABLE tbl_notice (
+
+id	NUMBER		PRIMARY KEY,
+date_time	VARCHAR2(125)	NOT NULL	,
+writer	nVARCHAR2(20)	NOT NULL	,
+subject	nVARCHAR2(125)		,
+text	nVARCHAR2(2000)		
+
+);
+
+CREATE SEQUENCE seq_notice
+START WITH 1 INCREMENT BY 1;
+
+SELECT * FROM tbl_notice;
+
 COMMIT;
 
 
