@@ -26,8 +26,12 @@ text	nVARCHAR2(2000)
 
 );
 
+DROP TABLE tbl_notice;
+
 CREATE SEQUENCE seq_notice
 START WITH 1 INCREMENT BY 1;
+
+DROP SEQUENCE seq_notice;
 
 SELECT * FROM tbl_notice;
 
