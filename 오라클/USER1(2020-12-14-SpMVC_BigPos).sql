@@ -15,6 +15,8 @@ io_tax	NUMBER		,
 io_total	NUMBER		
 );
 
+SELECT * FROM tbl_iolist;
+
 CREATE SEQUENCE seq_io
 START WITH 1 INCREMENT BY 1;
 
